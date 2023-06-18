@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GamesList">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="@string/lista"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="sort"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/id"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tytul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sort"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/tytu"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rok"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:onClick="sort"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/rok"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/zdjecie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/zdj_cie"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ranga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sort"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="15dp"
+            android:text="@string/pozycja"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tabela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

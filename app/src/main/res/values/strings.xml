@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BoardGameCollector</string>
+    <string name="synchronizuj">Synchronizuj</string>
+    <string name="prosz_czeka_trwa_synchronizacja">Proszę czekać. Trwa synchronizacja...</string>
+    <string name="zaloguj_si">Zaloguj się</string>
+    <string name="nazwa_u_ytkownika">Nazwa użytkownika</string>
+    <string name="szczeg_y_gry">Szczegóły gry</string>
+    <string name="dodaj_zdj_cie">Dodaj zdjęcie</string>
+    <string name="usu_zdj_cie">Usuń zdjęcie</string>
+    <string name="zr_b_zdj_cie">Zrób zdjęcie</string>
+    <string name="id">ID</string>
+    <string name="tytu">Tytuł</string>
+    <string name="rok">Rok</string>
+    <string name="pozycja">Pozycja</string>
+    <string name="lista">Lista</string>
+    <string name="zdj_cie">Zdjęcie</string>
+    <string name="usuwanie_zdj_wy_czone">Usuwanie zdjęć wyłączone</string>
+    <string name="usuwanie_zdj_w_czone">Usuwanie zdjęć włączone</string>
+    <string name="data_ostatniej_synchronizacji">Data ostatniej synchronizacji:</string>
+    <string name="menu_g_wne">Menu główne</string>
+</resources>
